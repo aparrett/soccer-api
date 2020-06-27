@@ -1,0 +1,38 @@
+{
+  "name": "soccer-api",
+  "version": "0.0.1",
+  "description": "A GraphQL wrapper on a soccer REST API.",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aparrett/soccer-api.git"
+  },
+  "author": "Anthony Parrett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aparrett/soccer-api/issues"
+  },
+  "homepage": "https://github.com/aparrett/soccer-api#readme",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.9.2",
+    "apollo-server": "^2.15.0",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "tabWidth": 4,
+    "bracketSpacing": true,
+    "printWidth": 120,
+    "trailingComma": "none"
+  }
+}
