@@ -4,7 +4,9 @@
   "description": "A GraphQL wrapper on a soccer REST API.",
   "main": "server.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "eslint . && npm run test",
+    "dev": "nodemon server.js",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
