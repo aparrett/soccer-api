@@ -3,3 +3,23 @@ A GraphQL wrapper on a soccer (football) REST API. The REST API documentation ca
 
 ### Intended Use
 This project is currently only being used for learning how to wrap a REST API with GraphQL but feel free to make PRs, comment suggestions, or use the API. Obviously it is not recommended to use this in a production environment. 
+
+### Useful queries
+
+Get the data for each team in a league
+
+```
+{
+  league(id: 524){
+    league_id,
+    teams {
+      name
+      venue_name
+      venue_surface
+      venue_address
+      venue_city
+      venue_capacity
+    }
+  }
+}
+```

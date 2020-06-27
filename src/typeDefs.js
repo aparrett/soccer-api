@@ -11,5 +11,10 @@ module.exports = gql`
     type Team {
         team_id: Int!
         name: String!
+        venue_name: String!
+        venue_surface: String!
+        venue_address: String!
+        venue_city: String!
+        venue_capacity: Int!
     }
 `

@@ -13,7 +13,6 @@ class soccerAPI extends RESTDataSource {
 
     async getTeamsByLeagueId(id) {
         const result = await this.get(`teams/league/${id}`)
-        console.log(id, result.api.teams[0])
         return result.api.teams
     }
 }
