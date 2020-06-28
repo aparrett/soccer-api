@@ -4,5 +4,8 @@ module.exports = {
     },
     League: {
         teams: (parent, _, { dataSources }) => dataSources.soccerAPI.getTeamsByLeagueId(parent.league_id)
+    },
+    Team: {
+        players: (parent, _, { dataSources }) => dataSources.soccerAPI.getPlayersByTeamId(parent.team_id)
     }
 }
