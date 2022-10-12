@@ -20,7 +20,7 @@
   "homepage": "https://github.com/aparrett/soccer-api#readme",
   "dependencies": {
     "apollo-datasource-rest": "^0.9.2",
-    "apollo-server": "^2.15.0",
+    "apollo-server": "^2.25.4",
     "dotenv": "^8.2.0",
     "nodemon": "^2.0.4"
   },
